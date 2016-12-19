@@ -1,0 +1,11 @@
+// Solution to - Exercise 8
+short x = 10;
+byte  b = 20;
+float f = 2.0f;
+long  val = 1;
+
+x + x           int
+x + b           int
+x + f           float
+10 + 'A'        int
+x + b + val     long

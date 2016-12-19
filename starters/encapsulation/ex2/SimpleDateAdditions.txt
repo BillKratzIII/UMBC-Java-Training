@@ -1,0 +1,17 @@
+public String getMonthAsString() {}
+public int getDayOfYear() {}
+public int getDaysLeftInYear() {}
+
+private static int months[] = {31, 28, 31, 30, 31, 30,
+    31, 31, 30, 31, 30, 31};
+
+private static String names[] =
+    {"January", "February", "March", "April", "May",
+     "June", "July", "August", "September", "October",
+     "November", "December"};
+
+public boolean isLeapYear() {
+	// assuming instance variable is named "year"
+    return year % 400 == 0 ||
+           ((year % 4 == 0) && (year % 100 != 0));
+}
